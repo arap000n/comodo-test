@@ -1,25 +1,31 @@
 {
-  "name": "comodo",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arap000n/comodo-social.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arap000n/comodo-social/issues"
-  },
-  "homepage": "https://github.com/arap000n/comodo-social#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  }
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
